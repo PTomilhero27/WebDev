@@ -1,0 +1,142 @@
+#formacao-container {
+    width: 100vw;
+    height: 100vh;
+    color: var(--color-text-in-primary);
+}
+
+main {
+    width: 100%;
+}
+
+#formacao-container header {
+    height: 15rem;
+    background: var(--color-header);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#formacao-container header ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+#formacao-container header ul li {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80px;
+    align-items: center;
+}
+
+#formacao-container header ul li:nth-child(2) {
+    margin: 0 2rem;
+}
+
+#formacao-container header ul li img {
+    width: 3rem;
+    height: 3rem;
+}
+
+#formacao-container header ul li strong {
+    font-size: 2.5rem;
+}
+
+#formacao-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#formacao-content h2, #cursos-content h2 {
+    margin: 3rem 0;
+    color: black;
+    font: 700 Archivo;
+}
+
+#cursos-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.outros-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linha {
+    background: #0d0d0d;
+    width: 100%;
+    height: 4px;
+}
+
+.outros-container p {
+    font-size: 1.5rem;
+    width: 800px;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: bold;
+    color: #0d0d0d;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #formacao-container header ul {
+        max-width: 700px;
+        display: flex;
+        margin: 0 0 0 0;
+        justify-content: space-between;
+    }
+    #formacao-container header ul li:first-child {
+        margin-left: 20rem;
+    }
+    #formacao-container header ul {
+        margin-right: 28rem;
+    }
+    #formacao-container header ul li:nth-child(2) {
+        margin: 0 8rem;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #formacao-content {
+        display: inline;
+    }
+    .formacao-card {
+        margin-left: 4rem;
+    }
+    #formacao-content h2 {
+        text-align: left;
+        padding: 0 4rem;
+    }
+    #cursos-content h2 {
+        width: 100%;
+    }
+    #cursos-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 0 4rem;
+    }
+    .card-curso {
+        margin: 1rem 2rem 1rem 0;
+    }
+    .outros-container {
+        width: 100%;
+    }
+}

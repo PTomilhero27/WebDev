@@ -1,0 +1,61 @@
+.formacao-card {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    height: 20rem;
+    background:var(--color-cards);
+
+    margin-top: 1.8rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+.card-nome {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 0 0.5rem 0 1.2rem ;
+    border-bottom: 1px solid #fff;
+    color: var(--color-text-card);
+}
+.card-nome p {
+    font-size: 1.8rem;
+}
+
+.card-nome span {
+    color: black;
+    font: 700 5rem Poppins;
+    line-height: 0;
+    
+}
+
+.card-body {
+    height: 14.5rem;
+    font-size: 4rem;
+    line-height: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-card);
+
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.2rem;
+    border-top: 1px solid #FFF;
+    text-decoration: none;
+    color: var(--color-text-card);
+}
+
+.card-footer p {
+    font-size: 1.8rem;
+}
+.card-footer img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
