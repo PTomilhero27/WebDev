@@ -27,17 +27,17 @@ function Formacao() {
 
           <li>
             <img src={cursoIcon} alt="Icone Resolvido" />
-            <strong>39</strong>
+            <strong>62</strong>
             <span>cursos concluídos</span>
           </li>
           <li>
             <img src={resolvidoIcon} alt="Icone Resolvido" />
-            <strong>997</strong>
+            <strong>1456</strong>
             <span>exercícios resolvidos</span>
           </li>
           <li>
             <img src={horasIcon} alt="Icone Resolvido" />
-            <strong>400 h</strong>
+            <strong>600 h</strong>
             <span>Horas concluídas</span>
           </li>
         </ul>
@@ -63,15 +63,24 @@ function Formacao() {
                 target="_blank"
               />
               <FormacaoCard
+                nome="Acessibilidade Web"
+                link="https://cursos.alura.com.br/degree/certificate/c2f117f4-15a6-400d-a26f-9a7584e0478f"
+                target="_blank"
+              />
+                            <FormacaoCard
                 nome="React.js"
                 link="https://cursos.alura.com.br/degree/certificate/cce5e21e-5b72-4c56-9095-6277644ddce0"
                 target="_blank"
               />
+              
             </div>
           </div>
 
           <div id="cursos-content">
-            <h2>Cursos Comcluidos</h2>
+            <h2>Cursos Concluídos
+            <p><a href="https://cursos.alura.com.br/user/ptomilhero27">Vê todos os cursos</a></p>
+
+            </h2>
 
 
 

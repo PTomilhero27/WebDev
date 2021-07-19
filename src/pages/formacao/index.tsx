@@ -28,17 +28,17 @@ function Formacao() {
 
           <li>
             <img src={cursoIcon} alt="Icone Resolvido" />
-            <strong>39</strong>
+            <strong>62</strong>
             <span>cursos concluídos</span>
           </li>
           <li>
             <img src={resolvidoIcon} alt="Icone Resolvido" />
-            <strong>997</strong>
+            <strong>1456</strong>
             <span>exercícios resolvidos</span>
           </li>
           <li>
             <img src={horasIcon} alt="Icone Resolvido" />
-            <strong>400 h</strong>
+            <strong>600 h</strong>
             <span>Horas concluídas</span>
           </li>
         </ul>
@@ -50,7 +50,7 @@ function Formacao() {
         <main >
           <div id="formacao-content">
 
-            <h2>Formações comcluida</h2>
+            <h2>Formações comcluida</h2> 
 
             <div className="cards">
               <FormacaoCard
@@ -72,7 +72,8 @@ function Formacao() {
           </div>
 
           <div id="cursos-content">
-            <h2>Cursos Comcluidos</h2>
+            <h2>Cursos Comcluidos
+            </h2>
 
 
 

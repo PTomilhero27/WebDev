@@ -50,7 +50,7 @@ function CursoCards() {
       />
       <Link to="/formacao2" className="outros-container" >
         <div className="linha"></div>
-        <p>Mostrar outros 36 cursos</p>
+        <p>Mostrar outros 58 cursos</p>
         <div className="linha"></div>
       </Link>
 
